@@ -1,20 +1,23 @@
  
 @keyframes MyLinkedin {
-  0%   {transform: translateY(200px);}
-  25%  {transform: translateX(200px);}
-  50%  {}
-  100% {transform: rotateX(90deg);}
+  0%   {
+    background-color: aqua;
+    transform: translateY(200px);}
+  25%  {background-color: cadetblue;
+    transform: translateX(200px);}
+  50%  {background-color: cyan;
+  border-radius: 100%;}
+  100% {
+    background-color: darkgrey;
+    transform: rotateX(90deg);}
 }
 
 img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 
   animation-name: MyLinkedin;
   animation-duration: 4s;
   filter: saturate(100%);
   animation-iteration-count: infinite;    
 } 
-img:hover {
-
-}
