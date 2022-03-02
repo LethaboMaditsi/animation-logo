@@ -15,9 +15,12 @@
 img {
   width: 100px;
   height: 100px;
-
-  animation-name: MyLinkedin;
   animation-duration: 4s;
   filter: saturate(100%);
-  animation-iteration-count: infinite;    
+      
 } 
+
+img:hover {
+  animation-iteration-count: ease-in;
+  animation-name: MyLinkedin;
+}
